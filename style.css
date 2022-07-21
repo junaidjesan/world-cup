@@ -89,10 +89,10 @@ hr{
     text-decoration: none; color:wheat ; margin-right: 20px; text-align: center; margin-top: 15px; margin-bottom: 0;
 }
 .last-info{
-    margin-top:  100PX; text-align: center; 
+    margin-top:  50px; text-align: center; 
 }
 .last-info a{
-    margin-right: 10px; height: 100px; width: 100px; border-radius: 10px; color: aliceblue; background: rgb(12, 18, 31);
+    margin-right: 10px; height: 100px; width: 100px; border-radius: 10px; 
 }
 
 /* media quariry styles for tablet*/
@@ -143,16 +143,16 @@ hr{
 @media screen and (max-width:576px) {
     /* website banner */
     .banner{
-        display: grid; grid-template-columns: repeat(1, 1fr); width: 350px; height: 920px;margin:0 5PX 0 5PX;border-radius: 0;
+        display: grid; grid-template-columns: repeat(1, 1fr); width: 380px; height: 920px;margin:0 5PX 0 5PX;border-radius: 0;
     }
     .banner h1{
-        font-size: 40px; width: 300px; text-align: center;
+        font-size: 40px; width: 300px; margin-left: 10px;
     }
     .banner p{
-        width: 300px; text-align: center;
+        width: 300px; 
     }
     .banner button{
-        margin: 50px 80px; 
+        margin: 50px 50px; 
     }
     .banner div{
         width: 300px;
